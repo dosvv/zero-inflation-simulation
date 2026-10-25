@@ -1,0 +1,19 @@
+__pycache__/
+.venv/
+.idea/
+.DS_Store
+
+# LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Report (not part of the simulation code)
+*.tex
+output/report.pdf
+output/utialogo.pdf
+output/utiareport.sty
