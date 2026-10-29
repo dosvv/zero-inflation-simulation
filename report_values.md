@@ -2,7 +2,7 @@
 
 ## Data-generating model
 - True coefficients: b0 = 1, b1 = 0.03 (Temperature), b2 = −0.5 (Rain), log link `ln(mu) = b0 + b1 x1 + b2 x2`
-- Explanatory variables: x1 ~ N(15, 7²), x2 ~ Bernoulli(0.2), drawn anew in every replication
+- Explanatory variables: x1 ~ N(15, 7²), x2 ~ Bernoulli(0.2), regenerated in every replication
 - Average mu ≈ 4.02 (range ≈ 1.0–11.3), proportion of zeros of the Poisson model alone m0 ≈ 0.0310
 - ZIP data: y = 0 with probability π, otherwise Poisson(mu) (`generate_zi_data`)
 - NB data: NB2 with parameter α, Var = mu + α mu², no zero inflation (`generate_od_data`)
